@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="711da98d-7a68-49f2-a04b-c42a2f9085c1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MariaDB - olivier-rescigno-portofolio_bd_js@mysql-olivier-rescigno-portofolio.alwaysdata.net" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MariaDB - olivier-rescigno-portofolio_bd_js@mysql-olivier-rescigno-portofolio.alwaysdata.net" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MariaDB - olivier-rescigno-portofolio_bd_js@mysql-olivier-rescigno-portofolio.alwaysdata.net" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="olivier-rescigno-portofolio_bd_js: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MariaDB - olivier-rescigno-portofolio_bd_js@mysql-olivier-rescigno-portofolio.alwaysdata.net" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="olivier-rescigno-portofolio_bd_js: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="images: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MariaDB - olivier-rescigno-portofolio_bd_js@mysql-olivier-rescigno-portofolio.alwaysdata.net" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="olivier-rescigno-portofolio_bd_js: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="joueur: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MariaDB - olivier-rescigno-portofolio_bd_js@mysql-olivier-rescigno-portofolio.alwaysdata.net" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="olivier-rescigno-portofolio_bd_js: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="user: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MariaDB - olivier-rescigno-portofolio_bd_js@mysql-olivier-rescigno-portofolio.alwaysdata.net" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="olivier-rescigno-portofolio_bd_js: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="vote: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MariaDB - olivier-rescigno-portofolio_bd_js@mysql-olivier-rescigno-portofolio.alwaysdata.net" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="olivier-rescigno-portofolio_bd_js: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="équipe: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YFrZVniH04EJUNZCZmmbHoeCuM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql&#10;mariadb" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.data.extractors.current.id" value="SQL Inserts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MariaDB - olivier-rescigno-portofolio_bd_js@mysql-olivier-rescigno-portofolio.alwaysdata.net" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="711da98d-7a68-49f2-a04b-c42a2f9085c1" name="Default Changelist" comment="" />
+      <created>1582549238040</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582549238040</updated>
+      <workItem from="1582549239446" duration="8977000" />
+      <workItem from="1582635437479" duration="10316000" />
+      <workItem from="1582653912418" duration="1356000" />
+      <workItem from="1582656549287" duration="305000" />
+      <workItem from="1582667102868" duration="312000" />
+      <workItem from="1582667616794" duration="95000" />
+      <workItem from="1582710354304" duration="550000" />
+      <workItem from="1582714582113" duration="616000" />
+      <workItem from="1582973282908" duration="1638000" />
+      <workItem from="1583066124324" duration="5704000" />
+      <workItem from="1583140174361" duration="6024000" />
+      <workItem from="1583235574137" duration="2287000" />
+      <workItem from="1583238869451" duration="954000" />
+      <workItem from="1583255868838" duration="660000" />
+      <workItem from="1583256573576" duration="420000" />
+      <workItem from="1583257032766" duration="1202000" />
+      <workItem from="1583258300404" duration="8285000" />
+      <workItem from="1583305507651" duration="5126000" />
+      <workItem from="1583310697051" duration="53000" />
+      <workItem from="1583324343511" duration="10647000" />
+      <workItem from="1583339425984" duration="7658000" />
+      <workItem from="1583429544392" duration="4268000" />
+      <workItem from="1583505103860" duration="6365000" />
+      <workItem from="1583517272845" duration="423000" />
+      <workItem from="1583599641439" duration="4707000" />
+      <workItem from="1583675677448" duration="488000" />
+      <workItem from="1583938599962" duration="747000" />
+      <workItem from="1584113876999" duration="6904000" />
+      <workItem from="1584194589165" duration="4034000" />
+      <workItem from="1584206058363" duration="4639000" />
+      <workItem from="1584260430773" duration="10148000" />
+      <workItem from="1584274242622" duration="7469000" />
+      <workItem from="1584366364149" duration="8199000" />
+      <workItem from="1584383073480" duration="7806000" />
+      <workItem from="1584430035380" duration="16806000" />
+      <workItem from="1584454510542" duration="1406000" />
+      <workItem from="1584457794318" duration="9239000" />
+      <workItem from="1584518192233" duration="6055000" />
+      <workItem from="1584559730437" duration="2523000" />
+      <workItem from="1584632298802" duration="5637000" />
+      <workItem from="1584718735455" duration="5592000" />
+      <workItem from="1584725554588" duration="4850000" />
+      <workItem from="1584778515072" duration="10008000" />
+      <workItem from="1584800556547" duration="10348000" />
+      <workItem from="1584957069598" duration="2906000" />
+      <workItem from="1584961604347" duration="1016000" />
+      <workItem from="1584967902804" duration="6700000" />
+      <workItem from="1584986534118" duration="2645000" />
+      <workItem from="1584989404269" duration="1065000" />
+      <workItem from="1585036738284" duration="3861000" />
+      <workItem from="1585067029314" duration="10365000" />
+      <workItem from="1585158158256" duration="6088000" />
+      <workItem from="1585315794196" duration="3261000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Inspections" timestamp="1582638742313">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1582638742313" />
+    <state x="361" y="71" key="#Notifications" timestamp="1582973325206">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1582973325206" />
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583256409732">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1583256409732" />
+    <state x="515" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582554764040">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="515" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1582554764040" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582637638083">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1582637638083" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1584720328739">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584720328739" />
+    <state width="1024" height="210" key="GridCell.Tab.0.bottom" timestamp="1584802921374">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584802921374" />
+    <state width="1024" height="210" key="GridCell.Tab.0.center" timestamp="1584802921374">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584802921374" />
+    <state width="1024" height="210" key="GridCell.Tab.0.left" timestamp="1584802921374">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584802921374" />
+    <state width="1024" height="210" key="GridCell.Tab.0.right" timestamp="1584802921374">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584802921374" />
+    <state x="604" y="336" key="NewPhpFileDialog" timestamp="1585161319677">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1585161319677" />
+    <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1583256827839">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1583256827839" />
+    <state x="660" y="302" width="322" height="233" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1585163572491">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="660" y="302" width="322" height="233" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1536.824@0.0.1536.824" timestamp="1585163572491" />
+    <state x="499" y="217" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1583430760804">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="217" key="com.intellij.database.dbimport.ImportUtil.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1583430760804" />
+    <state x="437" y="81" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1585163555123">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="437" y="81" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1585163555123" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585315872168">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585315872168" />
+  </component>
+</project>

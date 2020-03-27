@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Création</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="creerC.js"></script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/Bootstrap/bootstrap.min.css">
+
+</head>
+
+<body>
+
+<div class="container-fluid">
+    <div class="row no-gutter">
+        <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div>
+        <div class="col-md-8 col-lg-6">
+            <div class="login d-flex align-items-center py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9 col-lg-8 mx-auto">
+                            <h3 class="login-heading mb-4">Création de votre compte</h3>
+                            <h5>Configurer votre nom d'utilisateur</h5>
+                            <form id="form-new"  action="json/creerC.php" method="post">
+                                <div class="form-label-group">
+                                    <input type="text" name="username" id="username" class="form-control" placeholder="Nouveau nom d'utilisateur" autofocus>
+                                    <label for="username">Nouveau nom d'utilisateur</label>
+                                </div>
+
+                                <h5>Configurer votre adresse mail</h5>
+                                <div class="form-label-group">
+                                    <input type="email" name="mail" id="mail" class="form-control" placeholder="Nouvelle adresse mail" autofocus>
+                                    <label for="mail">Nouvelle adresse mail</label>
+                                </div>
+
+
+                                <h5>Configurer votre mot de passe</h5>
+                                <div class="form-label-group">
+                                    <input type="password" name="password" id="password" class="form-control" placeholder="Nouveau mot de passe" >
+                                    <label for="password">Nouveau mot de passe</label>
+                                </div>
+
+                                <div class="form-label-group">
+                                    <input type="password" name="Rpassword" id="Rpassword" class="form-control" placeholder="Confirmer le nouveau le mot de passe">
+                                    <label for="Rpassword">Confirmer le nouveau le mot de passe</label>
+                                </div>
+                                <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit">Enregistrer les modifications</button>
+                            </form>
+                            <div id="message" style="display: none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

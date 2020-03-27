@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil</title>
+    <script src="/Bootstrap/jquery.slim.js"></script>
+    <script src="Bootstrap/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="vote.css">
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="vote.js"></script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/Bootstrap/bootstrap.min.css">
+
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">ZONE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Menu
+                    </a>
+                    <!-- Here's the magic. Add the .animate and .slide-in classes to your .dropdown-menu and you're all set! -->
+                    <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" id="noter" href="#">Noter</a>
+                        <a class="dropdown-item" href="compte.html">Mon Compte</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" id="userco" href="#">Connecté en tant que </a>
+                        <a class="dropdown-item" id="conn" href="#">Se connecter</a>
+                        <a class="dropdown-item" id="deconn" href="#">Se déconnecter</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<h3>Envoi d'une image</h3>
+
+<img id="image" >
+<p id="pa"></p>
+
+<!--<form enctype="multipart/form-data" id="form-data" action="json/img.php" method="post">
+
+    <input type="hidden" name="MAX_FILE_SIZE" value="30000" />
+
+    Envoyez ce fichier : <input name="userfile" type="file" />
+    <input type="submit" value="Envoyer le fichier" />
+</form> -->
+
+</body>
+</html>

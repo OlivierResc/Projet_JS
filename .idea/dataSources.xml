@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="MariaDB - olivier-rescigno-portofolio_bd_js@mysql-olivier-rescigno-portofolio.alwaysdata.net" uuid="eff5e50b-ab1f-4b5a-a5d0-10d04ae1c2eb">
+      <driver-ref>mariadb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://mysql-olivier-rescigno-portofolio.alwaysdata.net:3306/olivier-rescigno-portofolio_bd_js</jdbc-url>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Compte</title>
+    <script src="/Bootstrap/jquery.slim.js"></script>
+    <script src="Bootstrap/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="compte.css">
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="compte.js"></script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/Bootstrap/bootstrap.min.css">
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" id="acc" href="#">ZONE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Menu
+                    </a>
+                    <!-- Here's the magic. Add the .animate and .slide-in classes to your .dropdown-menu and you're all set! -->
+                    <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" id="on verra" href="#">On verra</a>
+                        <a class="dropdown-item" href="compte.html">Mon Compte</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" id="userco" href="#"></a>
+                        <a class="dropdown-item" id="conn" href="#">Se connecter</a>
+                        <a class="dropdown-item" id="deconn" href="#">Se déconnecter</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+
+<div class="container-fluid">
+    <div class="row no-gutter">
+        <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div>
+        <div class="col-md-8 col-lg-6">
+            <div class="login d-flex align-items-center py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9 col-lg-8 mx-auto">
+                            <h3 class="login-heading mb-4">Mon Compte</h3>
+                                <h5>Nom d'utilisateur</h5>
+                                <p id="nomU">Votre nom d'utilisateur actuel est : </p>
+                                <form id="form-change"  action="json/compte.php" method="post">
+                                <div class="form-label-group">
+                                    <input type="text" name="username" id="username" class="form-control" placeholder="Nouveau nom d'utilisateur" autofocus>
+                                    <label for="username">Nouveau nom d'utilisateur</label>
+                                </div>
+
+                                <h5>Adresse mail</h5>
+                                <p id="mailU">Votre adresse mail actuelle est : </p>
+                                <div class="form-label-group">
+                                    <input type="email" name="mail" id="mail" class="form-control" placeholder="Nouvelle adresse mail" autofocus>
+                                    <label for="mail">Nouvelle adresse mail</label>
+                                </div>
+
+                                <h5>Identifiant</h5>
+                                <p id="idU">Votre identifiant actuel est : </p>
+
+                                <h5>Admin ou Membre </h5>
+                                <p id="adU">Vous êtes connecté en tant que : </p>
+
+                                <h5>Changer de mot de passe</h5>
+                                <div class="form-label-group">
+                                    <input type="password" name="password" id="password" class="form-control" placeholder="Nouveau mot de passe" >
+                                    <label for="password">Nouveau mot de passe</label>
+                                </div>
+
+                                <div class="form-label-group">
+                                    <input type="password" name="Rpassword" id="Rpassword" class="form-control" placeholder="Confirmer le nouveau le mot de passe">
+                                    <label for="Rpassword">Confirmer le nouveau le mot de passe</label>
+                                </div>
+                                <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit">Enregistrer les modifications</button>
+                            </form>
+                            <div id="message" style="display: none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
