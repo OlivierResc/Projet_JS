@@ -28,6 +28,11 @@
                         window.location.href = 'index.html';
                     });
 
+                $('#classem')
+                    .on('click', function () {
+                        window.location.href = 'vote.html';
+                    });
+
 
                 $.ajax({
                     url:'/json/userco.php',

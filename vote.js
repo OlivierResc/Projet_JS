@@ -125,9 +125,15 @@
                     }
                 })
 
+                $('#acc')
+                    .on('click', function () {
+                        window.location.href = 'index.html';
+                    });
 
-
-
+                $('#classem')
+                    .on('click', function () {
+                        window.location.href = 'vote.html';
+                    });
 
                 $.ajax({
                     url:'/json/userco.php',
@@ -136,7 +142,7 @@
                 }).done(function(data){
                     console.log($(this));
                     if(data.success === true) {
-                        $('#userco').append(data.admin);
+                        $('#userco').append(data.user + ' connecté en tant que ' + data.admin);
                         console.log(data.user);
                     }
                 })

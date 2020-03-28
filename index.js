@@ -115,17 +115,11 @@
                         window.location.href = 'index.html';
                     });
 
-
-                $('body').append(
-                    $('<div />').append(
-                        $('<button id="img" />')
-                            .html('image')
-                            .on('click',function() {
-                                window.location.href = '/vote.html';
-                            })
-                    )
-                )
-
+                $('#classem')
+                    .on('click', function () {
+                        window.location.href = 'vote.html';
+                    });
+                
 
                 $.ajax({
                     url:'/json/userco.php',

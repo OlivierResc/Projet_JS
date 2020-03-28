@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="711da98d-7a68-49f2-a04b-c42a2f9085c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataBase/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/DataBase/connect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/imgV.php" beforeDir="false" afterPath="$PROJECT_DIR$/json/imgV.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vote.css" beforeDir="false" afterPath="$PROJECT_DIR$/vote.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vote.html" beforeDir="false" afterPath="$PROJECT_DIR$/vote.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compte.js" beforeDir="false" afterPath="$PROJECT_DIR$/compte.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grille_equipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/grille_equipe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vote.js" beforeDir="false" afterPath="$PROJECT_DIR$/vote.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -200,7 +200,7 @@
       <workItem from="1585315794196" duration="22292000" />
       <workItem from="1585381394888" duration="10564000" />
       <workItem from="1585400004937" duration="2011000" />
-      <workItem from="1585402275125" duration="5337000" />
+      <workItem from="1585402275125" duration="5846000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1585323084675</created>
@@ -223,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585392678918</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="third push">
+      <created>1585407679823</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585407679823</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +240,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first push" />
     <MESSAGE value="second push" />
-    <option name="LAST_COMMIT_MESSAGE" value="second push" />
+    <MESSAGE value="third push" />
+    <option name="LAST_COMMIT_MESSAGE" value="third push" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Inspections" timestamp="1582638742313">
@@ -260,10 +268,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1582637638083" />
-    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1585392678232">
+    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1585407679113">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585392678232" />
+    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585407679113" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1584720328739">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -292,10 +300,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1583256827839" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1585392683389">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1585407682919">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585392683389" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585407682919" />
     <state x="660" y="302" width="322" height="233" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1585163572491">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
