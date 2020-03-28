@@ -23,51 +23,6 @@
                 })
 
 
-                /*$('body').append(
-                    $('<button id="bGrille" />')
-                        .html('Grille')
-                        .on('click', function () {
-                            $.ajax({
-                                url: '/json/grille.php',
-                                method: 'get'
-                            }).done(function (data) {
-                                //window.location.href = '/login.html';
-                                //$('body').append(data.detail["Mavericks"]);
-                                for(let i = 0; i < 30; ++i) {
-                                    console.log(data.ids[i]);
-                                    //for (let key in data.grille) {
-                                    $('body').append(
-
-
-                                        $('<article class="zone"/>').append(
-                                            $('<img />').attr("src",data.liste[i]).css({"width": "350",
-                                                "height": "350"}).append(
-                                                $('<p />').html(data.grille[i])))
-                                            .on('click', function () {
-                                                let idS = data.ids[i];
-                                                $.ajax({
-                                                    url: '/json/grille.php',
-                                                    method: 'post',
-                                                    data: {
-                                                        "idE" : idS
-                                                    }
-                                                }).done(function (res) {
-                                                    console.log(data.ids[i]);
-                                                    console.log(idS);
-                                                    console.log(res);
-                                                    window.location.href = 'grille_equipe.html';
-                                                })
-                                            })
-
-
-                                    )
-
-                                }
-                            })
-                        })
-                );*/
-
-
                 $.ajax({
                     url: '/json/grille.php',
                     method: 'get'
@@ -78,8 +33,6 @@
                         console.log(data.lid[i]);
                         //for (let key in data.grille) {
                         $('body').append(
-
-
                             $('<article class="zone"/>').append(
                                 $('<img />').attr("src",data.liste[i]).css({"width": "300",
                                     "height": "250"}))
@@ -101,8 +54,6 @@
                                         console.log(res.nom);*/
                                     })
                                 })
-
-
                         )
 
                     }
@@ -119,7 +70,7 @@
                     .on('click', function () {
                         window.location.href = 'vote.html';
                     });
-                
+
 
                 $.ajax({
                     url:'/json/userco.php',
