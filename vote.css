@@ -70,3 +70,40 @@ article.zone:hover {
     border: 3px solid red;
     color: red;
 }
+
+.der {
+    display: inline-block;
+    vertical-align: top;
+}
+
+section.tab{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 130px;
+
+}
+
+.customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.customers td, #customers th {
+    border: 1px solid #b8daff;
+    padding: 4px;
+}
+
+.customers tr {background-color: whitesmoke;}
+
+.customers tr:hover {background-color: #ddd;}
+
+.customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: cornflowerblue;
+    color: white;
+}

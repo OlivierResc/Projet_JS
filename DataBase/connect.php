@@ -92,6 +92,28 @@ function grilleLogo(){
     }
 }
 
+function grilleClass(){
+    $db = dbConnect();
+    $result = $db->prepare('SELECT nom_equipe FROM équipe ORDER BY nb_votes DESC;');
+    //$result->bindParam(':id_equipe', $equipe);
+    $result->execute();
+    $res=$result->fetchAll(PDO::FETCH_COLUMN,0);
+    {
+        return $res;
+    }
+}
+
+function grilleClassId(){
+    $db = dbConnect();
+    $result = $db->prepare('SELECT nom_equipe FROM équipe ORDER BY id_equipe;');
+    //$result->bindParam(':id_equipe', $equipe);
+    $result->execute();
+    $res=$result->fetchAll(PDO::FETCH_COLUMN,0);
+    {
+        return $res;
+    }
+}
+
 function grilleId(){
     $db = dbConnect();
     $result = $db->prepare('SELECT id_equipe, nom_equipe FROM équipe;');

@@ -11,8 +11,8 @@ $obj->success = false;
 $id = 1;
 
 if ((isset($_SESSION['user']))) {
-    $obj->image = selectLogo($id);
-    $obj->liste = grilleLogo();
+    $obj->grille = grilleClass();
+    $obj->grilleId = grilleClassId();
 
 }
 
