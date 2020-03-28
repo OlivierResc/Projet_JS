@@ -25,6 +25,7 @@ if ((isset($_SESSION['user']))){
     $obj->classement = $classementE;
     $obj->vote = $voteE;
     //$obj->voter = $voteAct;
+    $obj->image = selectLogo($equipe);
 }
 
 

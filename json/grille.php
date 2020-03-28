@@ -13,8 +13,10 @@ $_SESSION['id'] = verifId($_SESSION['user']);
 if ((isset($_SESSION['user']))){
     $obj->grille = grilleEquipe();
     $obj->ids = grilleId();
+    $obj->lid = listeId();
     $obj->success = true;
     $_SESSION['equipe_select'] = $_POST["idE"];
+    $obj->liste = grilleLogo();
 }
 
 //$obj->grille = array("Mavericks", "Denver", "Lakers", "Olympiakos");

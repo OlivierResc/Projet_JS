@@ -45,30 +45,72 @@
                 });*/
 
 
-                $.ajax({
+                /*$.ajax({
                     url:'/json/imgV.php',
                     method:'get',
                 }).done(function(data){
-                        console.log(data.image)
-                        $('body').append(
-                            $('#image').attr("src","/Mavericks.png")
-                        )
-                        //console.log(data.user);
-                })
-
-
-                /*$.ajax({
-                    url: '/json/imgV.php',
-                    method: 'get'
-                }).done(function (data){
-                    console.log(data)
                     console.log(data.image)
+                    console.log(typeof (data.image))
+                    let srci = "Bucks.png";
+                    console.log(typeof (srci))
                     $('body').append(
-                        $('<img />').attr("src","data.image")
-                    );
-                }).fail(function() {
-                    $('body').html("une erreur critique est arrivée!!");
+                        $('<section class="lazone"/>').append(
+                            $('<article class="zone"/>').append(
+                                $('#image').attr("src",data.image)
+                                    .css({"width": "300",
+                                        "height": "300"})
+                            )
+                        )
+                    )
                 })*/
+
+
+                $('body').append(
+                    $('<button id="bGrille" />')
+                        .html('Liste')
+                        .on('click', function () {
+                            $.ajax({
+                                url: '/json/imgV.php',
+                                method: 'get'
+                            }).done(function (data) {
+                                console.log(data.liste);
+                                //window.location.href = '/login.html';
+                                //$('body').append(data.detail["Mavericks"]);
+                                for (let i = 0; i < 30; ++i) {
+                                    console.log(data.liste[i])
+                                    $('body').append(
+                                        $('<section class="lazone"/>').append(
+                                            $('<article class="zone"/>').append(
+                                                $('<img />').attr("src",data.liste[i]).css({"width": "300",
+                                                    "height": "300"})
+                                            )
+                                        )
+                                    )
+                                }
+                            })
+                        })
+                )
+
+                $('body').append(
+                    $('<button id="bGrille" />')
+                        .html('Liste2')
+                        .on('click', function () {
+                            $.ajax({
+                                url: '/json/imgV.php',
+                                method: 'get'
+                            }).done(function (data) {
+                                console.log(data.liste);
+                                //window.location.href = '/login.html';
+                                //$('body').append(data.detail["Mavericks"]);
+                                for (let i = 0; i < 30; ++i) {
+                                    $('body').append(
+                                            $('<article class="zone"/>').append(
+                                                $('<img />').attr("src",data.liste[i]).css({"width": "350",
+                                                    "height": "350"})))
+                                }
+                            })
+                        })
+                )
 
 
                 $.ajax({

@@ -81,6 +81,17 @@ function grilleEquipe(){
     }
 }
 
+function grilleLogo(){
+    $db = dbConnect();
+    $result = $db->prepare('SELECT id_equipe, img_equipe FROM équipe;');
+    //$result->bindParam(':id_equipe', $equipe);
+    $result->execute();
+    $res=$result->fetchAll(PDO::FETCH_COLUMN,1);
+    {
+        return $res;
+    }
+}
+
 function grilleId(){
     $db = dbConnect();
     $result = $db->prepare('SELECT id_equipe, nom_equipe FROM équipe;');
@@ -92,6 +103,16 @@ function grilleId(){
     }
 }
 
+function listeId(){
+    $db = dbConnect();
+    $result = $db->prepare('SELECT id_equipe, img_equipe FROM équipe;');
+    //$result->bindParam(':id_equipe', $equipe);
+    $result->execute();
+    $res=$result->fetchAll(PDO::FETCH_COLUMN,0);
+    {
+        return $res;
+    }
+}
 
 function nomE($id){
     $db = dbConnect();

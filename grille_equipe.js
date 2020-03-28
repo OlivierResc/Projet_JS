@@ -42,24 +42,18 @@
                 })
 
 
-                /*$('body').append(
-                    $('<button />')
-                        .html('Grille')
-                        .on('click', function () {
-                                $.ajax({
-                                    url: '/json/grille.php',
-                                    method: 'get'
-                                }).done(function(data) {
-                                        for (let i = 0; i < 30; i++ ) {
-                                            $('body').append(
-                                                $('<section />').append(data.grille[i])
-                                            )
-                                        }
-                                    }
-                                )
-                            }
-                        )
-                )*/
+
+                $.ajax({
+                    url:'/json/grille_equipe.php',
+                    method:'get',
+                }).done(function(data){
+                    console.log(data.image)
+                    $('#logo').append(
+                        $('#image').attr("src",data.image)
+                            .css({"width": "350",
+                                "height": "350"})
+                    )
+                })
 
 
                 $.ajax({
@@ -134,6 +128,8 @@
 
                 $('body').append(
                     $('<button id="bVote" />')
+                        .css({"display": "block",
+                        "margin":"auto"})
                         .html('Vote')
                         .on('click', function () {
                             //this.disabled = true;

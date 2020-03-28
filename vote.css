@@ -50,3 +50,23 @@ body {
     background: #b8daff;
     background: linear-gradient(to right, #b3b7bb, #80bdff);
 }
+
+section.lazone {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 130px;
+}
+
+article.zone {
+    margin: 5px;
+    border: 3px solid lightblue;
+    text-align: center;
+    color: black;
+}
+
+article.zone:hover {
+    border: 3px solid red;
+    color: red;
+}
