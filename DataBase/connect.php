@@ -319,7 +319,7 @@ function InsertVote($equipe, $idU)
     $result->execute();
 }
 
-function insertImg($img_nom,$img_taille,$img_type,$img_blob)
+/*function insertImg($img_nom,$img_taille,$img_type,$img_blob)
 {
     $db = dbConnect();
     $result = $db->prepare('INSERT INTO images (img_nom, img_type, img_blob, img_taille) VALUES (:img_nom, :img_type, :img_blob,:img_taille);');
@@ -339,7 +339,7 @@ function selectImg($id){
     {
         return $res['img_blob'];
     }
-}
+}*/
 
 function selectLogo ($id){
     $db = dbConnect();
