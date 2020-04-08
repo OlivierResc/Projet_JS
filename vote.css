@@ -51,6 +51,10 @@ body {
     background: linear-gradient(to right, #b3b7bb, #80bdff);
 }
 
+h1{
+    text-align: center;
+}
+
 section.lazone {
     display: flex;
     flex-wrap: nowrap;
