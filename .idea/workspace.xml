@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="711da98d-7a68-49f2-a04b-c42a2f9085c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compte.html" beforeDir="false" afterPath="$PROJECT_DIR$/compte.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grille_equipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/grille_equipe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vote.css" beforeDir="false" afterPath="$PROJECT_DIR$/vote.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vote.html" beforeDir="false" afterPath="$PROJECT_DIR$/vote.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +191,7 @@
       <workItem from="1585402275125" duration="6056000" />
       <workItem from="1585420278688" duration="838000" />
       <workItem from="1585487652272" duration="894000" />
-      <workItem from="1586355910376" duration="1651000" />
+      <workItem from="1586355910376" duration="2836000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1585323084675</created>
