@@ -34,7 +34,7 @@
                         //for (let key in data.grille) {
                         $('body').append(
                             $('<article class="zone"/>').append(
-                                $('<img />').attr("src",data.liste[i]).css({"width": "300",
+                                $('<img />').attr("src",'/'+data.liste[i]).css({"width": "300",
                                     "height": "250"}))
                                 .on('click', function () {
                                     let idS = data.lid[i];
